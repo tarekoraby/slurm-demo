@@ -1,0 +1,6 @@
+- step:
+    name: tensor-train
+    image: python:3.12
+    command:
+    - pip install tensorflow
+    - python ./tensor-train.py 
